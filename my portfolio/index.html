@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rishikesh Pawar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar sidebarGo">
+            <nav>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="/projects.html">Projects</a></li>
+                    <li><a href="/MY RESUME.pdf">Resume</a></li>
+                    <li><a href="/about.html">About Me</a></li>
+                    <li><a href="/contact.html">Contact Me</a></li>
+                </ul>
+            </nav> 
+        </div>
+        <div class="main">
+            <div class="hamburger">
+                <img class="ham" src="/ham.png" alt=""> 
+                <img class="cross" src="/cross.png" alt="">
+            </div>
+            <div class="infoContainer">
+                <div class="devInfo">
+                    <div class="hello">Hi I am</div>
+                    <div class="name">Rishikesh Pawar</div>
+                    <span id="element"></span>
+                    <div class="moreabout">Hi there welcome to my world, where lines of code and epic gaming quests intertwine to shape my unique journey. I am Rishikesh Pawar, a dynamic individual with a deep-rooted passion for both development and gaming. Through the fusion of these two worlds, I have cultivated a skill set that blends technical prowess with the creativity and determination of a dedicated gamer.</div>
+                    <div class="buttons">
+                        <button class="btn">My Resume</button>
+                        <button class="btn">Contact Me</button>
+                    </div>
+                </div>
+                <div class="devPic"><img src="rp1.png" alt="Rishikesh Pawar"></div>
+            </div>
+        </div>
+</div>
+<script src="script.js"></script>
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer', 'Gamer'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+</html>

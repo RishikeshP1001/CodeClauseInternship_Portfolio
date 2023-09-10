@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background-color: rgb(78, 78, 224);
+    width: 90vw;
+}
+
+.sidebar{
+    position: absolute;
+    background-color: white;
+    font-family: 'Kanit', sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar nav{
+padding: 45px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: rgb(207, 30, 30);
+}
+
+.container{
+    display: flex;
+    margin: 50px;
+    font-size: 30px;
+
+}
+
+.infoContainer{
+    background-color: rgb(78, 78, 224);
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 16px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.hello{
+    font-size: 3em;
+}
+.name{
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'Kanit', sans-serif;
+}
+.about{
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.moreabout{
+    font-size: 2em;
+    margin-top: 23px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.buttons{
+    margin-top: 2.2em;
+    font-size: 16px;
+}
+
+.btn{
+    padding: 10px 15px;
+    border-radius: 22px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    margin: 3px 3px;
+    cursor: pointer;
+}
+
+.btn-sm{
+    font-size: 14px;
+    padding: 10px 19px;
+    margin: 12px 0;
+    border-radius: 22px;
+}
+
+.btn:hover{
+    background-color: blue;
+    color: white;
+}
+
+.devPic img{
+    height:58vh;
+}
+
+.contactform{
+    padding: 0 34px;
+    font-family: 'Kanit', sans-serif;
+    margin: 88px;
+}
+
+.contactform h1{
+font-family: 'Kanit', sans-serif;
+}
+
+.contactform form div{
+    padding: 10px 0;
+}
+
+.contactform form div input{
+    border-radius: 5px;
+    margin: 6 0 0 0;
+    padding: 3px;
+}
+
+#emailHelp{
+    font-size: 13px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+    
+#form-check{
+    flex-direction: row;
+}
+
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+
+.projectContainer{
+    margin: 88px;
+}
+
+.projectItem{
+    margin: 20px;
+    font-family: 'Kanit', sans-serif;
+}
+
+h1{
+    margin: 23px;
+    font-family: 'Kanit', sans-serif;   
+}
+
+p{
+    font-family: 'Kanit', sans-serif; 
+}
+
+
+.about h2{
+    font-family: 'Kanit', sans-serif; 
+    margin: 24px;
+}
+
+.about p{
+    font-family: 'Kanit', sans-serif; 
+    margin: 24px;
+}
+
+.skillcontainer{
+    padding: 20px;
+}
+
+.skillItem{
+    display: flex;
+}
+
+.skill{
+    height: 8px;
+    width: 250px;
+    background-color: green;
+    border: 2px solid black;
+}
+
+.fifty{
+    width: 125px;
+    margin: 12px;
+}
+
+.twentyfive{
+    width: 75px;
+    margin: 12px;
+}
+
+ .sidebarGo{
+      transform: translate(-443px, 0px);
+      position: absolute;
+      }
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.ham{
+    margin-top: 10px;
+}
+
+.cross{
+    margin-left: 270px;
+    margin-top: 10px;
+}
+
+#element{
+    color: lavender;
+    font-size: 50px;
+}
+
+@media (max-width:1600px){
+    *{
+
+    
+
+        .buttons{
+            font-size: 6px;
+        }
+        .devInfo{
+            font-size: 10px;
+        }
+        .devPic{
+            display: none;
+        }
+        .about, .projectContainer, .contactform{
+            margin: 50px 8px;
+        }
+    }
+}
